@@ -158,3 +158,156 @@ Source-Age: 22
 
 [2026-07-04 22:46:04,810: INFO: data_ingestion_pipeline]: Data Ingestion Completed
 [2026-07-04 22:46:04,810: INFO: main]: Completed Data Ingestion
+[2026-07-04 23:02:07,206: INFO: common]: YAML file: /Users/tyrion/Documents/projects/Summarizer/config/config.yaml loaded successfully.
+[2026-07-04 23:02:07,208: INFO: common]: YAML file: /Users/tyrion/Documents/projects/Summarizer/params.yaml loaded successfully.
+[2026-07-04 23:02:07,209: INFO: common]: Directory created at: artifacts
+[2026-07-04 23:03:51,833: INFO: common]: YAML file: /Users/tyrion/Documents/projects/Summarizer/config/config.yaml loaded successfully.
+[2026-07-04 23:03:51,835: INFO: common]: YAML file: /Users/tyrion/Documents/projects/Summarizer/params.yaml loaded successfully.
+[2026-07-04 23:03:51,836: INFO: common]: Directory created at: artifacts
+[2026-07-04 23:04:47,961: INFO: common]: YAML file: /Users/tyrion/Documents/projects/Summarizer/config/config.yaml loaded successfully.
+[2026-07-04 23:04:47,961: INFO: common]: YAML file: /Users/tyrion/Documents/projects/Summarizer/params.yaml loaded successfully.
+[2026-07-04 23:04:47,962: INFO: common]: Directory created at: artifacts
+[2026-07-04 23:05:35,018: INFO: common]: YAML file: /Users/tyrion/Documents/projects/Summarizer/config/config.yaml loaded successfully.
+[2026-07-04 23:05:35,018: INFO: common]: YAML file: /Users/tyrion/Documents/projects/Summarizer/params.yaml loaded successfully.
+[2026-07-04 23:05:35,018: INFO: common]: Directory created at: artifacts
+[2026-07-04 23:05:35,019: INFO: common]: Directory created at: artifacts/data_transformer
+[2026-07-04 23:05:35,326: INFO: _client]: HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-07-04 23:05:35,328: WARNING: _http]: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[2026-07-04 23:05:35,353: INFO: _client]: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/config.json "HTTP/1.1 200 OK"
+[2026-07-04 23:05:35,409: INFO: _client]: HTTP Request: GET https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/config.json "HTTP/1.1 200 OK"
+[2026-07-04 23:05:35,653: INFO: _client]: HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-07-04 23:05:35,679: INFO: _client]: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/tokenizer_config.json "HTTP/1.1 200 OK"
+[2026-07-04 23:05:35,707: INFO: _client]: HTTP Request: GET https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/tokenizer_config.json "HTTP/1.1 200 OK"
+[2026-07-04 23:05:35,949: INFO: _client]: HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[2026-07-04 23:05:36,194: INFO: _client]: HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+[2026-07-04 23:05:36,439: INFO: _client]: HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/spiece.model "HTTP/1.1 307 Temporary Redirect"
+[2026-07-04 23:05:36,464: INFO: _client]: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/spiece.model "HTTP/1.1 200 OK"
+[2026-07-04 23:05:36,493: INFO: _client]: HTTP Request: GET https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/spiece.model "HTTP/1.1 200 OK"
+[2026-07-04 23:05:36,936: INFO: _client]: HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/tokenizer.json "HTTP/1.1 404 Not Found"
+[2026-07-04 23:05:37,181: INFO: _client]: HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/added_tokens.json "HTTP/1.1 404 Not Found"
+[2026-07-04 23:05:37,414: INFO: _client]: HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/special_tokens_map.json "HTTP/1.1 307 Temporary Redirect"
+[2026-07-04 23:05:37,440: INFO: _client]: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/special_tokens_map.json "HTTP/1.1 200 OK"
+[2026-07-04 23:05:37,466: INFO: _client]: HTTP Request: GET https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/special_tokens_map.json "HTTP/1.1 200 OK"
+[2026-07-04 23:05:37,701: INFO: _client]: HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+[2026-07-04 23:06:22,297: INFO: common]: YAML file: /Users/tyrion/Documents/projects/Summarizer/config/config.yaml loaded successfully.
+[2026-07-04 23:06:22,298: INFO: common]: YAML file: /Users/tyrion/Documents/projects/Summarizer/params.yaml loaded successfully.
+[2026-07-04 23:06:22,298: INFO: common]: Directory created at: artifacts
+[2026-07-04 23:06:22,298: INFO: common]: Directory created at: artifacts/data_transformer
+[2026-07-04 23:06:22,574: INFO: _client]: HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-07-04 23:06:22,577: WARNING: _http]: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[2026-07-04 23:06:22,589: INFO: _client]: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/config.json "HTTP/1.1 200 OK"
+[2026-07-04 23:06:22,839: INFO: _client]: HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-07-04 23:06:22,851: INFO: _client]: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/tokenizer_config.json "HTTP/1.1 200 OK"
+[2026-07-04 23:06:23,096: INFO: _client]: HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[2026-07-04 23:06:23,330: INFO: _client]: HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+[2026-07-04 23:11:01,600: INFO: common]: YAML file: /Users/tyrion/Documents/projects/Summarizer/config/config.yaml loaded successfully.
+[2026-07-04 23:11:01,602: INFO: common]: YAML file: /Users/tyrion/Documents/projects/Summarizer/params.yaml loaded successfully.
+[2026-07-04 23:11:01,602: INFO: common]: Directory created at: artifacts
+[2026-07-04 23:11:01,603: INFO: common]: Directory created at: artifacts/data_transformer
+[2026-07-04 23:11:01,889: INFO: _client]: HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-07-04 23:11:01,899: INFO: _client]: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/config.json "HTTP/1.1 200 OK"
+[2026-07-04 23:11:02,151: INFO: _client]: HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-07-04 23:11:02,153: WARNING: _http]: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[2026-07-04 23:11:02,164: INFO: _client]: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/tokenizer_config.json "HTTP/1.1 200 OK"
+[2026-07-04 23:11:02,403: INFO: _client]: HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[2026-07-04 23:11:02,682: INFO: _client]: HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+[2026-07-04 23:20:36,035: INFO: main]: Starting Data Ingestion
+[2026-07-04 23:20:36,036: INFO: common]: YAML file: /Users/tyrion/Documents/projects/Summarizer/config/config.yaml loaded successfully.
+[2026-07-04 23:20:36,039: INFO: common]: YAML file: /Users/tyrion/Documents/projects/Summarizer/params.yaml loaded successfully.
+[2026-07-04 23:20:36,039: INFO: common]: Directory created at: artifacts
+[2026-07-04 23:20:36,039: INFO: common]: Directory created at: artifacts/data_ingestion
+[2026-07-04 23:20:36,043: ERROR: main]: Encountered an error while running Data Ingestion: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+[2026-07-04 23:20:47,574: INFO: main]: Starting Data Ingestion
+[2026-07-04 23:20:47,574: INFO: common]: YAML file: /Users/tyrion/Documents/projects/Summarizer/config/config.yaml loaded successfully.
+[2026-07-04 23:20:47,575: INFO: common]: YAML file: /Users/tyrion/Documents/projects/Summarizer/params.yaml loaded successfully.
+[2026-07-04 23:20:47,575: INFO: common]: Directory created at: artifacts
+[2026-07-04 23:20:47,575: INFO: common]: Directory created at: artifacts/data_ingestion
+[2026-07-04 23:20:49,812: INFO: data_ingestion]: artifacts/data_ingestion/summarizer.zip downloaded! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 12D2:67E16:2C0C:7F60:6A48FC3E
+Accept-Ranges: bytes
+Date: Sat, 04 Jul 2026 13:20:48 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bne-ybbn1320030-BNE
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1783171249.506108,VS0,VE203
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 1d0b28923ca46c5874b8e236ddb561c915b4f05f
+Expires: Sat, 04 Jul 2026 13:25:48 GMT
+Source-Age: 0
+
+
+[2026-07-04 23:20:49,873: INFO: data_ingestion_pipeline]: Data Ingestion Completed
+[2026-07-04 23:20:49,873: INFO: main]: Completed Data Ingestion
+[2026-07-04 23:20:49,873: INFO: main]: Starting Data Transformation
+[2026-07-04 23:20:49,873: INFO: common]: YAML file: /Users/tyrion/Documents/projects/Summarizer/config/config.yaml loaded successfully.
+[2026-07-04 23:20:49,873: INFO: common]: YAML file: /Users/tyrion/Documents/projects/Summarizer/params.yaml loaded successfully.
+[2026-07-04 23:20:49,873: INFO: common]: Directory created at: artifacts
+[2026-07-04 23:20:49,873: INFO: common]: Directory created at: artifacts/data_transformer
+[2026-07-04 23:20:50,183: INFO: _client]: HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-07-04 23:20:50,184: WARNING: _http]: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[2026-07-04 23:20:50,194: INFO: _client]: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/config.json "HTTP/1.1 200 OK"
+[2026-07-04 23:20:50,437: INFO: _client]: HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-07-04 23:20:50,449: INFO: _client]: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/tokenizer_config.json "HTTP/1.1 200 OK"
+[2026-07-04 23:20:50,692: INFO: _client]: HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[2026-07-04 23:20:50,946: INFO: _client]: HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+[2026-07-04 23:20:52,895: INFO: main]: Completed Data Transformation
+[2026-07-04 23:21:11,284: INFO: main]: Starting Data Ingestion
+[2026-07-04 23:21:11,285: INFO: common]: YAML file: /Users/tyrion/Documents/projects/Summarizer/config/config.yaml loaded successfully.
+[2026-07-04 23:21:11,285: INFO: common]: YAML file: /Users/tyrion/Documents/projects/Summarizer/params.yaml loaded successfully.
+[2026-07-04 23:21:11,285: INFO: common]: Directory created at: artifacts
+[2026-07-04 23:21:11,285: INFO: common]: Directory created at: artifacts/data_ingestion
+[2026-07-04 23:21:12,574: INFO: data_ingestion]: artifacts/data_ingestion/summarizer.zip downloaded! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 12D2:67E16:2C0C:7F60:6A48FC3E
+Accept-Ranges: bytes
+Date: Sat, 04 Jul 2026 13:21:11 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bne-ybbn1320037-BNE
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1783171271.444361,VS0,VE4
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 13785f2a1232f04d467a81676fdb332a9e80417d
+Expires: Sat, 04 Jul 2026 13:26:11 GMT
+Source-Age: 23
+
+
+[2026-07-04 23:21:12,648: INFO: data_ingestion_pipeline]: Data Ingestion Completed
+[2026-07-04 23:21:12,648: INFO: main]: Completed Data Ingestion
+[2026-07-04 23:21:12,648: INFO: main]: Starting Data Transformation
+[2026-07-04 23:21:12,649: INFO: common]: YAML file: /Users/tyrion/Documents/projects/Summarizer/config/config.yaml loaded successfully.
+[2026-07-04 23:21:12,649: INFO: common]: YAML file: /Users/tyrion/Documents/projects/Summarizer/params.yaml loaded successfully.
+[2026-07-04 23:21:12,649: INFO: common]: Directory created at: artifacts
+[2026-07-04 23:21:12,649: INFO: common]: Directory created at: artifacts/data_transformer
+[2026-07-04 23:21:12,913: INFO: _client]: HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-07-04 23:21:12,915: WARNING: _http]: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[2026-07-04 23:21:12,925: INFO: _client]: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/config.json "HTTP/1.1 200 OK"
+[2026-07-04 23:21:13,172: INFO: _client]: HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-07-04 23:21:13,181: INFO: _client]: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/tokenizer_config.json "HTTP/1.1 200 OK"
+[2026-07-04 23:21:13,429: INFO: _client]: HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[2026-07-04 23:21:13,667: INFO: _client]: HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+[2026-07-04 23:21:15,590: INFO: main]: Completed Data Transformation
