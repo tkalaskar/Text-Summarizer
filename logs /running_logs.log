@@ -1,1 +1,160 @@
 [2026-07-04 11:35:52,578: INFO: main]: Logging has been configured successfully.
+[2026-07-04 22:02:33,301: INFO: main]: Logging has been configured successfully.
+[2026-07-04 22:03:23,419: INFO: main]: Logging has been configured successfully.
+[2026-07-04 22:11:57,978: INFO: common]: YAML file: config/config.yaml loaded successfully.
+[2026-07-04 22:11:57,979: INFO: common]: YAML file: params.yaml loaded successfully.
+[2026-07-04 22:12:38,598: INFO: common]: YAML file: config/config.yaml loaded successfully.
+[2026-07-04 22:12:38,602: INFO: common]: YAML file: params.yaml loaded successfully.
+[2026-07-04 22:12:38,602: INFO: common]: Directory created at: artifacts
+[2026-07-04 22:12:38,603: INFO: common]: Directory created at: artifacts/data_ingestion
+[2026-07-04 22:14:33,565: INFO: common]: YAML file: config/config.yaml loaded successfully.
+[2026-07-04 22:14:33,568: INFO: common]: YAML file: params.yaml loaded successfully.
+[2026-07-04 22:14:33,569: INFO: common]: Directory created at: artifacts
+[2026-07-04 22:14:33,569: INFO: common]: Directory created at: artifacts/data_ingestion
+[2026-07-04 22:15:06,686: INFO: common]: YAML file: config/config.yaml loaded successfully.
+[2026-07-04 22:15:06,687: INFO: common]: YAML file: params.yaml loaded successfully.
+[2026-07-04 22:15:06,688: INFO: common]: Directory created at: artifacts
+[2026-07-04 22:15:06,688: INFO: common]: Directory created at: artifacts/data_ingestion
+[2026-07-04 22:16:51,799: INFO: common]: YAML file: config/config.yaml loaded successfully.
+[2026-07-04 22:16:51,800: INFO: common]: YAML file: params.yaml loaded successfully.
+[2026-07-04 22:16:51,801: INFO: common]: Directory created at: artifacts
+[2026-07-04 22:16:51,801: INFO: common]: Directory created at: artifacts/data_ingestion
+[2026-07-04 22:17:10,937: INFO: common]: YAML file: config/config.yaml loaded successfully.
+[2026-07-04 22:17:10,938: INFO: common]: YAML file: params.yaml loaded successfully.
+[2026-07-04 22:17:10,939: INFO: common]: Directory created at: artifacts
+[2026-07-04 22:17:10,939: INFO: common]: Directory created at: artifacts/data_ingestion
+[2026-07-04 22:17:12,165: INFO: common]: YAML file: config/config.yaml loaded successfully.
+[2026-07-04 22:17:39,924: INFO: common]: YAML file: config/config.yaml loaded successfully.
+[2026-07-04 22:17:39,925: INFO: common]: YAML file: params.yaml loaded successfully.
+[2026-07-04 22:17:39,925: INFO: common]: Directory created at: artifacts
+[2026-07-04 22:17:39,926: INFO: common]: Directory created at: artifacts/data_ingestion
+[2026-07-04 22:18:10,225: INFO: common]: YAML file: config/config.yaml loaded successfully.
+[2026-07-04 22:18:10,226: INFO: common]: YAML file: params.yaml loaded successfully.
+[2026-07-04 22:18:10,227: INFO: common]: Directory created at: artifacts
+[2026-07-04 22:18:10,228: INFO: common]: Directory created at: artifacts/data_ingestion
+[2026-07-04 22:18:45,714: INFO: common]: YAML file: config/config.yaml loaded successfully.
+[2026-07-04 22:18:46,961: INFO: common]: YAML file: config/config.yaml loaded successfully.
+[2026-07-04 22:19:09,300: INFO: common]: YAML file: config/config.yaml loaded successfully.
+[2026-07-04 22:19:25,014: INFO: common]: YAML file: config/config.yaml loaded successfully.
+[2026-07-04 22:19:55,649: INFO: common]: YAML file: config/config.yaml loaded successfully.
+[2026-07-04 22:21:59,740: INFO: common]: YAML file: /Users/tyrion/Documents/projects/Summarizer/config/config.yaml loaded successfully.
+[2026-07-04 22:22:50,532: INFO: common]: YAML file: /Users/tyrion/Documents/projects/Summarizer/config/config.yaml loaded successfully.
+[2026-07-04 22:24:58,560: INFO: common]: YAML file: /Users/tyrion/Documents/projects/Summarizer/config/config.yaml loaded successfully.
+[2026-07-04 22:24:58,561: INFO: common]: YAML file: /Users/tyrion/Documents/projects/Summarizer/params.yaml loaded successfully.
+[2026-07-04 22:24:58,561: INFO: common]: Directory created at: artifacts
+[2026-07-04 22:25:30,903: INFO: common]: YAML file: /Users/tyrion/Documents/projects/Summarizer/config/config.yaml loaded successfully.
+[2026-07-04 22:25:30,903: INFO: common]: YAML file: /Users/tyrion/Documents/projects/Summarizer/params.yaml loaded successfully.
+[2026-07-04 22:25:30,903: INFO: common]: Directory created at: artifacts
+[2026-07-04 22:26:45,875: INFO: common]: YAML file: config/config.yaml loaded successfully.
+[2026-07-04 22:26:45,877: INFO: common]: YAML file: params.yaml loaded successfully.
+[2026-07-04 22:26:45,877: INFO: common]: Directory created at: artifacts
+[2026-07-04 22:26:45,878: INFO: common]: Directory created at: artifacts/data_ingestion
+[2026-07-04 22:27:43,418: INFO: common]: YAML file: config/config.yaml loaded successfully.
+[2026-07-04 22:27:43,419: INFO: common]: YAML file: params.yaml loaded successfully.
+[2026-07-04 22:27:43,420: INFO: common]: Directory created at: artifacts
+[2026-07-04 22:27:43,421: INFO: common]: Directory created at: artifacts/data_ingestion
+[2026-07-04 22:27:46,213: INFO: 2927394386]: artifacts/data_ingestion/summarizer.zip downloaded! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 12D2:67E16:2C0C:7F60:6A48FC3E
+Accept-Ranges: bytes
+Date: Sat, 04 Jul 2026 12:27:44 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bne-ybbn1320032-BNE
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1783168064.295866,VS0,VE657
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 7f151c53f3b6fd84a0bc12c1fb2b30b40077e873
+Expires: Sat, 04 Jul 2026 12:32:44 GMT
+Source-Age: 0
+
+
+[2026-07-04 22:44:25,453: INFO: common]: YAML file: /Users/tyrion/Documents/projects/Summarizer/config/config.yaml loaded successfully.
+[2026-07-04 22:44:25,453: INFO: common]: YAML file: /Users/tyrion/Documents/projects/Summarizer/params.yaml loaded successfully.
+[2026-07-04 22:44:25,453: INFO: common]: Directory created at: artifacts
+[2026-07-04 22:44:25,453: INFO: common]: Directory created at: artifacts/data_ingestion
+[2026-07-04 22:45:26,200: INFO: main]: Starting Data Ingestion
+[2026-07-04 22:45:26,200: INFO: common]: YAML file: /Users/tyrion/Documents/projects/Summarizer/config/config.yaml loaded successfully.
+[2026-07-04 22:45:26,201: INFO: common]: YAML file: /Users/tyrion/Documents/projects/Summarizer/params.yaml loaded successfully.
+[2026-07-04 22:45:26,201: INFO: common]: Directory created at: artifacts
+[2026-07-04 22:45:26,201: INFO: common]: Directory created at: artifacts/data_ingestion
+[2026-07-04 22:45:26,211: ERROR: main]: Encountered an error while running Data Ingestion: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+[2026-07-04 22:45:40,557: INFO: main]: Starting Data Ingestion
+[2026-07-04 22:45:40,557: INFO: common]: YAML file: /Users/tyrion/Documents/projects/Summarizer/config/config.yaml loaded successfully.
+[2026-07-04 22:45:40,557: INFO: common]: YAML file: /Users/tyrion/Documents/projects/Summarizer/params.yaml loaded successfully.
+[2026-07-04 22:45:40,557: INFO: common]: Directory created at: artifacts
+[2026-07-04 22:45:40,557: INFO: common]: Directory created at: artifacts/data_ingestion
+[2026-07-04 22:45:42,839: INFO: data_ingestion]: artifacts/data_ingestion/summarizer.zip downloaded! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 12D2:67E16:2C0C:7F60:6A48FC3E
+Accept-Ranges: bytes
+Date: Sat, 04 Jul 2026 12:45:41 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bne-ybbn1320026-BNE
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1783169141.467652,VS0,VE204
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 3fa4ebb58a919e1b83d120760f113a5d5f62b472
+Expires: Sat, 04 Jul 2026 12:50:41 GMT
+Source-Age: 0
+
+
+[2026-07-04 22:45:42,902: INFO: data_ingestion_pipeline]: Data Ingestion Completed
+[2026-07-04 22:45:42,903: INFO: main]: Completed Data Ingestion
+[2026-07-04 22:46:03,459: INFO: main]: Starting Data Ingestion
+[2026-07-04 22:46:03,459: INFO: common]: YAML file: /Users/tyrion/Documents/projects/Summarizer/config/config.yaml loaded successfully.
+[2026-07-04 22:46:03,459: INFO: common]: YAML file: /Users/tyrion/Documents/projects/Summarizer/params.yaml loaded successfully.
+[2026-07-04 22:46:03,459: INFO: common]: Directory created at: artifacts
+[2026-07-04 22:46:03,459: INFO: common]: Directory created at: artifacts/data_ingestion
+[2026-07-04 22:46:04,728: INFO: data_ingestion]: artifacts/data_ingestion/summarizer.zip downloaded! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 12D2:67E16:2C0C:7F60:6A48FC3E
+Accept-Ranges: bytes
+Date: Sat, 04 Jul 2026 12:46:03 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bne-ybbn1320030-BNE
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1783169164.555851,VS0,VE4
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 77a7324e41d6868489a31c17b6239aab065a419c
+Expires: Sat, 04 Jul 2026 12:51:03 GMT
+Source-Age: 22
+
+
+[2026-07-04 22:46:04,810: INFO: data_ingestion_pipeline]: Data Ingestion Completed
+[2026-07-04 22:46:04,810: INFO: main]: Completed Data Ingestion

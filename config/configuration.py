@@ -1,5 +1,3 @@
-from pathlib import Path
-
 from src.Text_Summarizer.utils.common import read_yaml, create_directories
 from src.Text_Summarizer.constants import *
 
@@ -16,7 +14,7 @@ class ConfigurationManager:
         create_directories([config.root_dir])
         data_ingestion_config = DataIngestionConfig(
             root_dir=Path(config.root_dir),
-            source_URL=config.source_URL,
+            source_URL=Path(config.source_URL),
             local_data_file=Path(config.local_data_file),
             unzip_dir=Path(config.unzip_dir)
         )
