@@ -46,7 +46,11 @@ def create_directories(path_to_directories: list, verbose=True):
     Returns:
         None
     """
+    if isinstance(path_to_directories, (str, Path)):
+        path_to_directories = [path_to_directories]
+
     for path in path_to_directories:
-        os.makedirs(path, exist_ok=True)
+        path = Path(path)
+        path.mkdir(parents=True, exist_ok=True)
         if verbose:
             logger.info(f"Directory created at: {path}")
