@@ -615,3 +615,46 @@ Source-Age: 23
 [2026-07-05 16:52:10,644: INFO: common]: YAML file: /Users/tyrion/Documents/projects/Summarizer/config/config.yaml loaded successfully.
 [2026-07-05 16:52:10,645: INFO: common]: YAML file: /Users/tyrion/Documents/projects/Summarizer/params.yaml loaded successfully.
 [2026-07-05 16:52:10,645: INFO: common]: Directory created at: /Users/tyrion/Documents/projects/Summarizer/artifacts/model_trainer
+[2026-07-07 14:29:49,855: INFO: common]: YAML file: /Users/tyrion/Documents/projects/Summarizer/config/config.yaml loaded successfully.
+[2026-07-07 14:29:49,857: INFO: common]: YAML file: /Users/tyrion/Documents/projects/Summarizer/params.yaml loaded successfully.
+[2026-07-07 14:29:49,857: INFO: common]: Directory created at: artifacts
+[2026-07-07 14:29:49,857: INFO: common]: Directory created at: artifacts/data_ingestion
+[2026-07-07 14:29:53,263: INFO: 2927394386]: artifacts/data_ingestion/summarizer.zip downloaded! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 393E:40CE9:35A4E7:95B500:6A4C80BF
+Accept-Ranges: bytes
+Date: Tue, 07 Jul 2026 04:29:52 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bne-ybbn1320034-BNE
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1783398591.478872,VS0,VE705
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 00160f631c6d32c9b32e492dbe5487bfe641405a
+Expires: Tue, 07 Jul 2026 04:34:52 GMT
+Source-Age: 0
+
+
+[2026-07-07 14:30:01,823: INFO: common]: YAML file: /Users/tyrion/Documents/projects/Summarizer/config/config.yaml loaded successfully.
+[2026-07-07 14:30:01,825: INFO: common]: YAML file: /Users/tyrion/Documents/projects/Summarizer/params.yaml loaded successfully.
+[2026-07-07 14:30:01,825: INFO: common]: Directory created at: artifacts
+[2026-07-07 14:30:01,825: INFO: common]: Directory created at: artifacts/data_transformer
+[2026-07-07 14:30:02,476: INFO: _client]: HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+[2026-07-07 14:30:02,747: INFO: _client]: HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-07-07 14:30:02,748: WARNING: _http]: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[2026-07-07 14:30:02,774: INFO: _client]: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/config.json "HTTP/1.1 200 OK"
+[2026-07-07 14:30:03,038: INFO: _client]: HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-07-07 14:30:03,064: INFO: _client]: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/tokenizer_config.json "HTTP/1.1 200 OK"
+[2026-07-07 14:30:03,336: INFO: _client]: HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[2026-07-07 14:30:03,704: INFO: _client]: HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
